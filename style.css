@@ -1,0 +1,44 @@
+html, 
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.box {
+    width: 200px;
+    height: 150px;
+}
+
+#header {
+    background-color: red;
+    height: 30%;
+    text-align: center;
+    
+}
+
+#header .box {
+    background-color: green;
+    margin: auto;
+}
+
+#main {
+    background-color: green;
+    height: 30%;
+    text-align: center;
+}
+
+#main .box {
+    background-color: blue;
+    margin: auto;
+}
+
+#footer {
+    background-color: blue;
+    height: 30%;
+    text-align: center;
+}
+
+#footer .box {
+    background-color: red;
+    margin: auto;
+}
